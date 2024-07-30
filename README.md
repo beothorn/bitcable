@@ -21,3 +21,10 @@ Of course we ant this for some things, but not for others.
 If we had a trust system, where it is cheap to communicate with a few trusted peers, but expensive to communicate with not so trusted peers, or big hubs, the old "local social interactions" experience could be restored.  
 Also, we need some incentive for services that are visible to reroute messges from trusted peers, without intercepting them.  
 So we need a trust based system, with incentives to collaborate on reachability and resources like storage and a cost associated with sending messages that increases as the trustiness decreases.  
+
+# Thoughts
+
+- Everyone cheaps in, we reserve some storage for other people encripted data
+- We continuously test if a player is behaving and decrease trust for unbehaved players
+- We broadcast bad players, those who not sharing resources
+- We "pay" servers somehow, with storage or cpu cycles
